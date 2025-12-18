@@ -1,0 +1,30 @@
+name: myapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # تم تصحيح الاسم هنا
+  google_mlkit_text_recognition: ^0.13.0
+  photo_manager: ^3.0.0
+  drift: ^2.20.0
+  sqlite3_flutter_libs: ^0.5.20
+  path_provider: ^2.1.2
+  path: ^1.9.0
+  flutter_riverpod: ^2.5.1
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.9
+  drift_dev: ^2.20.0
+  
+flutter:
+  uses-material-design: true
